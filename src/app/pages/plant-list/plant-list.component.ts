@@ -21,4 +21,10 @@ export class PlantListComponent implements OnInit {
         complete: () => this.loading = false
       })
   }
+
+  getQtyByType(type: string) {
+    return this.plants.filter(
+      plant => plant.tipo.toLowerCase() === type.toLowerCase()
+    ).length;
+  }
 }

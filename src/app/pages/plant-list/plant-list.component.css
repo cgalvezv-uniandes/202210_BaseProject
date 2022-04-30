@@ -1,5 +1,5 @@
 .main-table {
-    margin: 40px 40px 50px 40px;
+    margin: 40px 40px 10px 40px;
     width: 792px;
     height: 335px;
     left: 98px;
@@ -15,4 +15,8 @@ p, th, td {
     padding: 10px;
     font-family: 'Inter';
     font-style: normal;
+}
+
+p {
+    margin-left: 40px;
 }
