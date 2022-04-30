@@ -1,3 +1,46 @@
 * [lang^=en] {
   color: green;
 }
+
+.main-title {
+  width: 392px;
+  height: 48px;
+  left: 98px;
+  top: 14px;
+  margin: 10px 40px;
+  font-family: 'Kaisei Decol';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.divider {
+  margin: 20px 40px;
+  width: 1244.02px;
+  left: 97.99px;
+  top: 82.54px;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-image {
+  margin: 10px 40px;
+  width: 1244px;
+  height: 323px;
+  left: 98px;
+  top: 103px;
+
+  background: url('./../assets/imageOne.jpg');
+}
+
+.main-footer {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
