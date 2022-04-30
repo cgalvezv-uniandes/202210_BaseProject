@@ -1,1 +1,24 @@
-<p>plant-list works!</p>
+<div *ngIf="loading;else notLoading">
+    <div class="container">
+        <p>Cargando...</p>
+    </div>
+</div>
+<ng-template #notLoading>
+    <table class="table main-table">
+        <thead class="table-head">
+            <th scope="col">#</th>
+            <th scope="col">Nombre común</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Clima</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let plant of plants;">
+                <th scope="row">{{ plant.id }}</th>
+                <td>{{ plant.nombre_comun }}</td>
+                <td>{{ plant.tipo }}</td>
+                <td>{{ plant.clima }}</td>
+            </tr>
+        </tbody>
+    </table>
+</ng-template>
+  

@@ -30,17 +30,16 @@
   height: 323px;
   left: 98px;
   top: 103px;
-
   background: url('./../assets/imageOne.jpg');
 }
 
 .main-footer {
+  padding-top: 70px;
   text-align: center;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-
   color: #000000;
 }

@@ -1,0 +1,18 @@
+.main-table {
+    margin: 40px 40px 50px 40px;
+    width: 792px;
+    height: 335px;
+    left: 98px;
+    top: 467px;
+}
+
+.table-head {
+    background-color: #333A40;
+    color: white;
+}
+
+p, th, td {
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+}
