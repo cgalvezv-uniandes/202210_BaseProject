@@ -4,17 +4,17 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PlantListComponent } from './pages/plant-list/plant-list.component';
+import { PlantListModule } from './pages/plant-list/plant-list.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    PlantListComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    PlantListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

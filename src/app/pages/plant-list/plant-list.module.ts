@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PlantListComponent } from './plant-list.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PlantListComponent
+  ],
+  exports: [
+    PlantListComponent
+  ],
   imports: [
     CommonModule
   ]
